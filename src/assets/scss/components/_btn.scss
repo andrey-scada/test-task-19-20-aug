@@ -4,7 +4,6 @@
   align-items: center;
   color: $white;
   letter-spacing: rem(3);
-  border-radius: rem(25);
   text-transform: uppercase;
   border: 1px solid $transparent;
   transition:
@@ -16,12 +15,14 @@
     height: rem(50);
     font-size: rem(13);
     padding: 0 rem(40);
+    border-radius: rem(25);
   }
 
   &--lg {
     height: rem(60);
     font-size: rem(15);
     padding: 0 rem(60);
+    border-radius: rem(30);
   }
 
   &--primary {
@@ -46,12 +47,12 @@
   @media (hover: hover) {
     &--primary:hover {
       background-color: $white;
+      border-color: $white;
       color: $primary;
     }
 
     &--secondary:hover {
       color: $primary;
-      border-color: $primary;
     }
 
     &--secondary:hover &__icon {
