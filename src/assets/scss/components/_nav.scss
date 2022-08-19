@@ -25,7 +25,7 @@
     height: inherit;
   }
 
-  @media screen and (max-width: $screen-sm-max) {
+  @media screen and (max-width: $screen-md-max) {
     &__part {
       display: none;
     }
