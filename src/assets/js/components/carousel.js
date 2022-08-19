@@ -11,7 +11,7 @@ export default function() {
     contain: true,
     wrapAround: true,
     autoPlay: true,
-    autoPlay: 7000,
+    autoPlay: 5000,
     pauseAutoPlayOnHover: false,
     prevNextButtons: false,
     draggable: false,
