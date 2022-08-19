@@ -1,0 +1,30 @@
+// Fonts
+$font-primary: "Roboto-Regular", Helvetica, Arial, sans-serif;
+$font-secondary: Helvetica, Arial, sans-serif;
+
+
+// Colors
+$transparent: rgba(0, 0, 0, 0.001);
+$white: #FFFFFF;
+$black: #222222;
+$primary: #D4B254;
+$grey: #777777;
+$grey-light: #EEEEEE;
+
+
+// Layout
+$screen-xlg-min: 1440px;
+
+$screen-lg-max: $screen-xlg-min - 1;
+$screen-lg-min: 1024px;
+
+$screen-sm-max: $screen-lg-min - 1;
+
+
+/**
+* Converts px to rem
+* @param $px - @int, value in pixels
+*/
+@function rem($px) {
+  @return $px / 16 + rem;
+}

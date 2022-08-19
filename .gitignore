@@ -1,0 +1,12 @@
+## System and generated files
+.idea
+.DS_Store
+.sass-cache
+
+## Directories
+log/
+dist/assets/fonts
+dist/assets/media
+dist/assets/js/lib
+dist/*.html
+node_modules/
