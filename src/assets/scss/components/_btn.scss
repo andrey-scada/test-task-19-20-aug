@@ -12,17 +12,17 @@
     border-color 0.1s linear;
 
   &--md {
-    height: rem(50);
+    height: rem(40);
     font-size: rem(13);
-    padding: 0 rem(40);
-    border-radius: rem(25);
+    padding: 0 rem(30);
+    border-radius: rem(20);
   }
 
   &--lg {
-    height: rem(60);
+    height: rem(50);
     font-size: rem(15);
-    padding: 0 rem(60);
-    border-radius: rem(30);
+    padding: 0 rem(40);
+    border-radius: rem(25);
   }
 
   &--primary {
@@ -44,10 +44,25 @@
     fill: $white;
   }
 
+  @media screen and (min-width: $screen-lg-min) {
+    &--md {
+      height: rem(50);
+      font-size: rem(13);
+      padding: 0 rem(40);
+      border-radius: rem(25);
+    }
+
+    &--lg {
+      height: rem(60);
+      font-size: rem(15);
+      padding: 0 rem(60);
+      border-radius: rem(30);
+    }
+  }
+
   @media (hover: hover) {
     &--primary:hover {
       background-color: $white;
-      border-color: $white;
       color: $primary;
     }
 
