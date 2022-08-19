@@ -1,0 +1,26 @@
+.link {
+  display: inline-flex;
+  text-transform: uppercase;
+  font-size: rem(14);
+  letter-spacing: rem(3);
+  transition:
+    fill 0.1s linear,
+    opacity 0.1s linear,
+    color 0.1s linear;
+
+  @media screen and (min-width: $screen-lg-min) {
+    font-size: rem(13);
+  }
+
+  @media (hover: hover) {
+    &--primary:hover {
+      color: $primary;
+      fill: $primary;
+      opacity: 1;
+    }
+
+    &--opacity:hover {
+      opacity: 0.6;
+    }
+  }
+}

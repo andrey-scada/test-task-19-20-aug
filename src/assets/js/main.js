@@ -1,5 +1,7 @@
 import $ from 'jquery';
 
-$(document).ready(() => {
+import nav from './components/nav';
 
+$(document).ready(() => {
+  nav();
 });

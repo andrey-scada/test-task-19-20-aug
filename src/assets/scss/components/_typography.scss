@@ -59,6 +59,7 @@ p {
 .label {
   text-transform: uppercase;
   font-size: rem(12);
+  letter-spacing: rem(3);
 
   @media screen and (min-width: $screen-lg-min) {
     font-size: rem(13);
