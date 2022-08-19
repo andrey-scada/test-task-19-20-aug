@@ -1,3 +1,5 @@
+import $ from 'jquery';
+import debounce from '../lib/debounce';
 import Flickity from 'flickity';
 
 export default function() {
@@ -13,7 +15,8 @@ export default function() {
     prevNextButtons: false,
     draggable: false,
     selectedAttraction: 0.01,
-    friction: 0.15
+    friction: 0.15,
+    setGallerySize: false
   }
 
   const headerCarousel = new Flickity(headerEl, headerOptions);
