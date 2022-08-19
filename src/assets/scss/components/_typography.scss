@@ -66,6 +66,10 @@ p {
   font-size: rem(12);
   letter-spacing: rem(3);
 
+  &--primary {
+    color: $primary;
+  }
+
   @media screen and (min-width: $screen-lg-min) {
     font-size: rem(13);
   }

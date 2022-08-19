@@ -3,7 +3,8 @@ import debounce from '../lib/debounce';
 import Flickity from 'flickity';
 
 export default function() {
-  const headerEl = document.querySelector('[data-carousel]');
+  const headerEl = document.querySelector('[data-carousel="header"]');
+  const testimonialsEl = document.querySelector('[data-carousel="testimonials"]');
 
   const headerOptions = {
     cellAlign: 'left',
@@ -19,5 +20,13 @@ export default function() {
     setGallerySize: false
   }
 
+  const testimonialsOptions = {
+    cellAlign: 'center',
+    contain: true,
+    wrapAround: false,
+    adaptiveHeight: true
+  }
+
   const headerCarousel = new Flickity(headerEl, headerOptions);
+  const testimonialsCarousel = new Flickity(testimonialsEl, testimonialsOptions);
 }

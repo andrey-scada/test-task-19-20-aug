@@ -49,17 +49,6 @@
     bottom: rem(30);
   }
 
-  &__carousel .flickity-page-dot {
-    width: rem(50);
-    height: rem(5);
-    background-color: $white;
-    border-radius: rem(3);
-  }
-
-  &__carousel .flickity-page-dot.is-selected {
-    background-color: $primary;
-  }
-
   @media screen and (min-width: $screen-lg-min) {
     margin-top: rem(-110);
   }
