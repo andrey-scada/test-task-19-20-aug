@@ -210,7 +210,6 @@
   }
 
   &__grid {
-
     display: flex;
     margin-top: rem(24);
   }
@@ -294,7 +293,7 @@
 
   @media (hover: hover) {
     &__grid-img-container:hover {
-      transform: translateY(-6px);
+      transform: translateY(-3px);
       box-shadow: 0 4px 8px rgba($black, 0.4);
     }
   }
